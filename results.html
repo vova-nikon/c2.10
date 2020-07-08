@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>voting</title>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="src/css/style1.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>here are the results</h1>
+			</div>	
+		</div>
+		<div class="row justify-content-center align-items-center">
+			<div class="col-3">
+				<img src="src/images/cat.jpg" alt="cat">
+			</div>
+			<div class="col-8">
+				<div class="progress">
+					<div class="progress-bar cats_bar bg-warning" id="cats_bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center align-items-center">
+			<div class="col-3">
+				<img src="src/images/dog.jpg" alt="dog">
+			</div>
+			<div class="col-8">
+				<div class="progress">
+					<div class="progress-bar dogs_bar bg-warning" id="dogs_bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center align-items-center">
+			<div class="col-3">
+				<img src="src/images/parrot.jpg" alt="parrot">
+			</div>
+			<div class="col-8">
+				<div class="progress">
+					<div class="progress-bar parrots_bar bg-warning" id="parrots_bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center align-items-center">
+			<div class="col-3">
+				<img src="src/images/cat.jpg" alt="cat" class="small cat_small">
+				<img src="src/images/dog.jpg" alt="dog" class="small dog_small">
+				<img src="src/images/parrot.jpg" alt="parrot" class="small parrot_small">
+			</div>
+			<div class="col-8">
+				<div class="progress">
+					<div class="progress-bar total_bar bg-warning" id="total_bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="src/js/results.js"></script>
+</body>
+</html>

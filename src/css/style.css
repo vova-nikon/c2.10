@@ -1,0 +1,101 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(../images/bg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+div {
+	text-align: center;
+}
+
+.container {
+	background-color: rgba(52, 56, 50, 0.9);
+	border-radius: 2.5em;
+	border: 0.5em solid rgb(255, 255, 102);
+	width: 65%;
+	margin-bottom: 5%;
+}
+
+.col-8 {
+	margin-top: 1.5em;
+}
+
+.thanks {
+	display: none;
+}
+
+.btn {
+	background-color: rgba(52, 56, 50, 0);
+	border: 0.1em solid rgb(255, 255, 102);
+	color: rgba(255, 255, 102);
+	font-family: 'Ubuntu Mono', monospace;
+	width: 100%;
+}
+
+.btns-voting, .results {
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+}
+
+.vote-btn {
+	width: 50%;
+}
+
+.results {
+	display: none;
+	margin-top: 0.5em;
+	color: rgb(255, 255, 102);
+}
+
+h1, h3 {
+	color: rgb(255, 255, 102);
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.pet_pics {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+
+.pet_img {
+	width: 7em;
+	border-radius: 50%;
+	border: 0.2em solid rgb(255, 255, 102);
+}
+
+.choice_img {
+	width: 15em;
+	border-radius: 50%;
+	border: 0.5em solid rgb(255, 255, 102);
+	display: none;
+}
+
+.choice {
+	display: none;
+}
+
+.cat-pic-btn {
+	background-image: url(../images/cat.jpg);
+	height: 100%;
+	background-size: 7em;
+}
+
+.dog-pic-btn {
+	background-image: url(../images/dog.jpg);
+	height: 100%;
+	background-size: 7em;
+}
+
+.parrot-pic-btn {
+	background-image: url(../images/parrot.jpg);
+	height: 7em;
+	background-size: 7em;
+}

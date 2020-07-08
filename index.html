@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>voting</title>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-8">
+				<h1 class="greetings">please take a vote</h1>
+				<h1 class="thanks">thanks for voting</h1>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 question">
+				<h3>which of these do you prefer as your pet?</h3>
+			</div>
+		</div>
+		<div class="row justify-content-center pet_pics">
+			<div class="col-4">
+				<button class="pet_img buttryout btn cat-pic-btn btn-warning"></button>
+			</div>
+			<div class="col-4">
+				<button class="pet_img dog-pic-btn buttryout btn btn-warning"></button>
+			</div>
+			<div class="col-4">
+				<button class="pet_img parrot-pic-btn buttryout btn btn-warning"></button>
+			</div>
+		</div>
+		<div class="row justify-content-around btns-voting">
+			<div class="col-4">
+				<button class="vote-btn cats btn btn-warning">cats</button>
+			</div>
+			<div class="col-4">
+				<button class="vote-btn dogs btn btn-warning">dogs</button>
+			</div>
+			<div class="col-4">
+				<button class="vote-btn parrots btn btn-warning">parrots</button>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-4">
+				<img class="choice_img img_cat" src="src/images/cat.jpg" alt="cat">
+				<img class="choice_img img_dog" src="src/images/dog.jpg" alt="dog">
+				<img class="choice_img img_parrot" src="src/images/parrot.jpg" alt="parrot">
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6">
+				<h3 class="choice choice_cats">you've chosen cats</h3>
+				<h3 class="choice choice_dogs">you've chosen dogs</h3>
+				<h3 class="choice choice_parrots">you've chosen parrots</h3>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-4">
+				<button class="results btn btn-warning">see results</button>
+			</div>	
+		</div>
+	</div>
+	<script src="src/js/index.js"></script>
+</body>
+</html>
