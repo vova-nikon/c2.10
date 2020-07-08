@@ -20,15 +20,15 @@ ES.onmessage = message => {
 	dogs_per = votesObj.dogs/all;
 	parrots_per = votesObj.parrots/all;
 
-	cats_bar.style.cssText = `width: ${cats_per*100}%`; color: rgb(52, 56, 50);
+	cats_bar.style.cssText = `width: ${cats_per*100}%; color: rgb(52, 56, 50)`;
 	cats_bar.textContent = `${votesObj.cats} votes for cats`;
 
-	dogs_bar.style.cssText = `width: ${dogs_per*100}%`; color: rgb(52, 56, 50);
+	dogs_bar.style.cssText = `width: ${dogs_per*100}%; color: rgb(52, 56, 50)`;
 	dogs_bar.textContent = `${votesObj.dogs} votes for dogs`;
 
-	parrots_bar.style.cssText = `width: ${parrots_per*100}%`; color: rgb(52, 56, 50);
+	parrots_bar.style.cssText = `width: ${parrots_per*100}%; color: rgb(52, 56, 50)`;
 	parrots_bar.textContent = `${votesObj.parrots} votes for parrots`;
 
-	total_bar.style.cssText = `width: ${all}%`; color: rgb(52, 56, 50);
+	total_bar.style.cssText = `width: ${all}%; color: rgb(52, 56, 50)`;
 	total_bar.textContent = `${all} votes in total`;
 };
